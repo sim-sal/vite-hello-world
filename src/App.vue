@@ -1,9 +1,11 @@
 <script>
 import AppTitle from './components/AppTitle.vue';
+import AppHero from './components/AppHero.vue';
 
 export default (await import('vue')).defineComponent({
   components: {
-    AppTitle
+    AppTitle,
+    AppHero
   }
 })
 
@@ -19,6 +21,7 @@ export default (await import('vue')).defineComponent({
     </a>
   </div>
   <AppTitle msg="Vite + Vue" />
+  <AppHero />
 </template>
 
 <style scoped>
