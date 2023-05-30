@@ -11,6 +11,7 @@ export default (await import('vue')).defineComponent({
 
 <style scoped>
 h1 {
-    color: #a70000;
+    color: rgb(255, 197, 1);
+    text-shadow: 4px 4px black;
 }
 </style>
